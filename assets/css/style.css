@@ -1,7 +1,8 @@
 
-/* body {
-    height: 2000px;
-} */
+body {
+    height: 800px;
+    color: #777777;
+} 
 
 nav {
     margin: auto;
@@ -91,6 +92,12 @@ p {
     line-height: 1.5;
 }
 
+form input {
+    width: 914px;
+    height: 20px;
+    margin: 4px 0;
+}
+
 footer {
     background: #666666;
     position: sticky;
@@ -101,6 +108,17 @@ footer {
     border-top: 5px solid #4aaaa5;
 }
 
+textarea {
+    width: 914px;
+    height: 150px;
+}
+
+#submit_bnt {
+    background: #4aaaa5;
+    color: #ffffff; 
+    width: 80px;
+    height: 30px;
+}
 footer p {
     color: #ffffff;
     height: 20px;
