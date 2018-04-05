@@ -2,22 +2,22 @@
 <html>
 <head>
     <title>My contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
     <nav>
         <ul>
-            <li><a id="name">Yuechang (Erin) Mei</a></li>
+            <li id="name">Yuechang (Erin) Mei</li>
             <li><a class="nav"  href="contact.html">Contact</a></li>
             <li><a class="nav right_border" href="portfolio.html">Portfolio</a></li>
             <li><a class="nav right_border" href="index.html">About</a></li>
         </ul>
     </nav>
 
-
-    <section id="full">
-        <div id="main">
+    <div style="position: relative;">
+        <div class="main clearfix">
             <h2>Contact</h2>
             <hr>
             <form>
@@ -28,15 +28,11 @@
                 Message:<br>
                 <textarea type="text" name="message"></textarea><br>
                 <input id="submit_bnt" type="submit" value="Submit">
-            </form>
+            </form>        
         </div>
-    </section>
-
-    <footer>
-        <p>Copyright©️</p>
-    </footer>
-
+        <footer>
+            <p>Copyright©️</p>          
+        </footer>
+    </div>
 </body>
-
-
 </html>
